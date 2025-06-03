@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="091db96b-cfc4-411b-96b9-f7d3dd36c37b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/location/AccordionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/location/ClickOrderButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/location/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/OrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FormSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepsLogin/FormSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Locations/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Locations/accordionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Locations/test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Locations/test3.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xlKWRPwcN3TYwFfT8xraOAjdqU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AccordionTest.executor": "Run",
+    "JUnit.AccordionTest.testAccordion.executor": "Run",
+    "JUnit.ClickOrderButtonTest.executor": "Run",
+    "JUnit.accordionTest.executor": "Run",
+    "JUnit.accordionTest.testFourAccordion (1).executor": "Run",
+    "JUnit.accordionTest.testFourAccordion.executor": "Run",
+    "JUnit.accordionTest.testTwoAccordion.executor": "Run",
+    "JUnit.clickOrderButtonTest.clickOrderButton.executor": "Run",
+    "JUnit.clickOrderButtonTest.clickOrderButtoninHeder.executor": "Run",
+    "JUnit.clickOrderButtonTest.executor": "Run",
+    "JUnit.java in Sprint_4.executor": "Run",
+    "JUnit.locator.executor": "Run",
+    "JUnit.locator.searchOrderTest.executor": "Run",
+    "JUnit.locator.test.executor": "Run",
+    "JUnit.locator.test1.executor": "Run",
+    "JUnit.test2.executor": "Run",
+    "JUnit.test2.test.executor": "Run",
+    "JUnit.test2.tester.executor": "Run",
+    "JUnit.test3.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Мария/Sprint__4/src/test/java/location",
+    "onboarding.tips.debug.path": "C:/Users/Мария/Sprint_4/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Мария\Sprint__4\src\test\java\location" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccordionTest.testAccordion">
+    <configuration name="AccordionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="location" />
+      <option name="MAIN_CLASS_NAME" value="location.AccordionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccordionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="location" />
+      <option name="MAIN_CLASS_NAME" value="location.AccordionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccordionTest.testAccordion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="location" />
+      <option name="MAIN_CLASS_NAME" value="location.AccordionTest" />
+      <option name="METHOD_NAME" value="testAccordion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccordionTest.testFourAccordion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="location" />
+      <option name="MAIN_CLASS_NAME" value="location.AccordionTest" />
+      <option name="METHOD_NAME" value="testFourAccordion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClickOrderButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="location" />
+      <option name="MAIN_CLASS_NAME" value="location.ClickOrderButtonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClickOrderButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="location" />
+      <option name="MAIN_CLASS_NAME" value="location.ClickOrderButtonTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccordionTest" />
+      <item itemvalue="JUnit.AccordionTest.testAccordion" />
+      <item itemvalue="JUnit.AccordionTest.testFourAccordion" />
+      <item itemvalue="JUnit.ClickOrderButtonTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccordionTest.testAccordion" />
+        <item itemvalue="JUnit.AccordionTest" />
+        <item itemvalue="JUnit.AccordionTest" />
+        <item itemvalue="JUnit.ClickOrderButtonTest" />
+        <item itemvalue="JUnit.ClickOrderButtonTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="091db96b-cfc4-411b-96b9-f7d3dd36c37b" name="Changes" comment="" />
+      <created>1748507253297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748507253297</updated>
+    </task>
+    <servers />
+  </component>
+</project>
