@@ -1,4 +1,4 @@
-package locations;
+package location;
 
 import org.junit.rules.ExternalResource;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +19,7 @@ public class DriverFactory extends ExternalResource {
        {
            startFirefox();
        }
+
        else {
          startChrome();
        }

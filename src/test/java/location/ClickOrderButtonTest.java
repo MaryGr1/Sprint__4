@@ -6,9 +6,9 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import pages.MainPage;
 import pages.OrderPage;
-import steps.FormSteps;
+import stepsLogin.FormSteps;
 
-public class testClickOrderButton {
+public class ClickOrderButtonTest {
 
     @Rule
     public DriverFactory driverFactory = new DriverFactory();
@@ -16,7 +16,7 @@ public class testClickOrderButton {
     
 
     @Test
-    public void test() throws InterruptedException {
+    public void clickOrderButtoninHeder() throws InterruptedException {
         WebDriver driver = driverFactory.getDriver();
         MainPage mainPage = new MainPage(driver);
         OrderPage orderPage = new OrderPage(driver);
@@ -40,7 +40,7 @@ public class testClickOrderButton {
     }
 
     @Test
-    public void tester() throws InterruptedException {
+    public void ClickOrderButton() throws InterruptedException {
         WebDriver driver = driverFactory.getDriver();
         MainPage mainPages = new MainPage(driver);
         OrderPage orderPages = new OrderPage(driver);

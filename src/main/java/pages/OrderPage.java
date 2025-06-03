@@ -5,7 +5,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class OrderPage {
@@ -14,43 +13,84 @@ public class OrderPage {
     public OrderPage(WebDriver driver) {
         this.driver = driver;
     }
+// кнопка ДА
+    private By yesButton = By.xpath(".//button[text()='Да']");
+
+// кнопка Далее/Заказать
+
+    private By orderButton = By.xpath(".//button[@class='Button_Button__ra12g Button_Middle__1CSJM']");
+
+// поле комментария
+
+    private By comment = By.cssSelector("input[placeholder='Комментарий для курьера']");
+
+// серый цвет самоката
+
+    private By greyColor = By.cssSelector("input[id='grey']");
+
+// бронирование на четверо суток
+
+    private By fourDays = By.xpath(".//div[text()='четверо суток']");
+
+// поле когда привезти самокат
+
+ private By calendar = By.cssSelector("input[placeholder='* Когда привезти самокат']");
+
+ // поле станции метро
+
+    private By metroStation = By.cssSelector("input[placeholder='* Станция метро']");
+
+    // поле срок аренды
+
+    private By rentalPeriod= By.cssSelector(".Dropdown-root");
+
+    // селектор выбора срока
+
+    private By selectorRentalPeriod= By.cssSelector(".Dropdown-menu");
+
+    // селектор выбора станции
+
+    private By selectorMetroStation = By.cssSelector(".select-search__select");
+
+
+
 
     // клик по кнопке "Да"
     public void clickYesButton() {
-        driver.findElement(By.xpath(".//button[text()='Да']")).click();
+        driver.findElement(yesButton).click();
     }
 
     //клик по кнопке "Далее/Заказать"
     public void clickOrderButton() {
-        driver.findElement(By.xpath(".//button[@class='Button_Button__ra12g Button_Middle__1CSJM']")).click();
+        driver.findElement(orderButton).click();
     }
 
     // ввод коммента
-    public void fieldComment(String comment) {
-        driver.findElement(By.cssSelector("input[placeholder='Комментарий для курьера']")).sendKeys(comment);
+    public void fieldComment(String text) {
+        driver.findElement(comment).sendKeys(text);
     }
 
     // селектор цвета
     public void fieldColor() {
-        driver.findElement(By.cssSelector("input[id='grey']")).click();
+        driver.findElement(greyColor).click();
     }
 
     // выбор времени бронирования
     public void fieldTerm() {
-        driver.findElement(By.cssSelector(".Dropdown-root")).click();
+        driver.findElement(rentalPeriod).click();
         new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".Dropdown-menu")));
-        driver.findElement(By.xpath(".//div[text()='четверо суток']")).click();
+                .until(ExpectedConditions.visibilityOfElementLocated(selectorRentalPeriod));
+        driver.findElement(fourDays).click();
     }
 
     // выбор даты
     public void fieldDateclick() {
-        driver.findElement(By.cssSelector("input[placeholder='* Когда привезти самокат']")).sendKeys(Keys.ENTER);
+        driver.findElement(calendar).sendKeys(Keys.ENTER);
     }
 
     // клик enter
     public void fieldDate() {
-        driver.findElement(By.cssSelector("input[placeholder='* Когда привезти самокат']")).click();
+        driver.findElement(calendar).click();
     }
 
 
@@ -61,10 +101,10 @@ public class OrderPage {
 
     // выбор первой станции метро
     public void fieldMetroStation() {
-        driver.findElement(By.cssSelector("input[placeholder='* Станция метро']")).click();
+        driver.findElement(metroStation).click();
 
         new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".select-search__select")));
+                .until(ExpectedConditions.visibilityOfElementLocated(selectorMetroStation));
     }
 
 

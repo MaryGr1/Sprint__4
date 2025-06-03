@@ -1,4 +1,4 @@
-package steps;
+package stepsLogin;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -33,6 +33,8 @@ public class FormSteps {
     public void fieldPhone(String phone) {
         driver.findElement(By.cssSelector("input[placeholder='* Телефон: на него позвонит курьер']")).sendKeys(phone);
     }
+
+
 
 
     public void login (String name, String lastname, String address, String phone)
