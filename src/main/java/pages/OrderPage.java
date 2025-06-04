@@ -10,9 +10,25 @@ import java.time.Duration;
 public class OrderPage {
     private final WebDriver driver;
 
+
     public OrderPage(WebDriver driver) {
         this.driver = driver;
     }
+
+    // поле имя
+    private By nameField = By.cssSelector("input[placeholder='* Имя']");
+
+    // поле фамилия
+    private By lastNameField = By.cssSelector("input[placeholder='* Фамилия']");
+
+    // поле адрес
+    private By fieldAddress = By.cssSelector("input[placeholder='* Адрес: куда привезти заказ']");
+
+    // поле телефон
+    private By fieldPhone = By.cssSelector("input[placeholder='* Телефон: на него позвонит курьер']");
+
+
+
 // кнопка ДА
     private By yesButton = By.xpath(".//button[text()='Да']");
 
@@ -53,7 +69,24 @@ public class OrderPage {
     private By selectorMetroStation = By.cssSelector(".select-search__select");
 
 
+    //ввод адреса
+    public void fieldAddress(String address) {
+        driver.findElement(fieldAddress).sendKeys(address);
+    }
 
+    // ввод фамилии
+    public void fieldLastName(String lastname) {
+        driver.findElement(lastNameField).sendKeys(lastname);
+    }
+
+    // ввод имени
+    public void fieldName(String name) {
+        driver.findElement(nameField).sendKeys(name);
+    }
+    // ввод телефона
+    public void fieldPhone(String phone) {
+        driver.findElement(fieldPhone).sendKeys(phone);
+    }
 
     // клик по кнопке "Да"
     public void clickYesButton() {

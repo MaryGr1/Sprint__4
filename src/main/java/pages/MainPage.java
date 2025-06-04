@@ -31,6 +31,7 @@ public class MainPage {
 
     private By cookieButton = By.cssSelector(".App_CookieButton__3cvqF");
 
+
     // клик по кнопке куки
 
     public void clickCookieButton()
@@ -67,12 +68,30 @@ public class MainPage {
     }
 
 
+  private By headingLocator;
+    private By panelLocator;
+
+    // Метод для клика по аккордеону и проверки текста
     public void clickAccordionAndCheckText(int index, String expectedText) {
-        driver.findElement(By.cssSelector("#accordion__heading-" + index)).click();
+
+        headingLocator = By.cssSelector("#accordion__heading-" + index);
+        panelLocator = By.cssSelector("#accordion__panel-" + index);
+
+
+        // Кликаем по заголовку аккордеона
+        driver.findElement(headingLocator).click();
+
+
+        // Ожидаем, пока панель аккордеона станет видимой
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        By panelLocator = By.cssSelector("#accordion__panel-" + index);
         wait.until(ExpectedConditions.visibilityOfElementLocated(panelLocator));
+
+
+        // Получаем актуальный текст из панели аккордеона
         String actualText = driver.findElement(panelLocator).getText();
+
+
+        // Проверяем, что актуальный текст совпадает с ожидаемым
         assertEquals(expectedText, actualText);
     }
 
